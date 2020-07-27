@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C56798F1EA0160800E4613C /* FrontRowTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56798E1EA0160800E4613C /* FrontRowTransform.swift */; };
+		0C00C39A2374DD0C00A07384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C00C3992374DD0C00A07384 /* LaunchScreen.storyboard */; };
+		0C3C4477234D0D0B00E06776 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C3C4476234D0D0B00E06776 /* Readme.txt */; };
 		0C5E594B1E6769F8003CCA93 /* StackTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E594A1E6769F8003CCA93 /* StackTestViewController.swift */; };
 		0CAD4EB31AE6FC14000F2A2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD4EB21AE6FC14000F2A2A /* AppDelegate.swift */; };
 		0CAD4EB51AE6FC14000F2A2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD4EB41AE6FC14000F2A2A /* ViewController.swift */; };
@@ -17,13 +18,15 @@
 		0CAD4F061AE70ACA000F2A2A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAD4F051AE70ACA000F2A2A /* CoreLocation.framework */; };
 		0CB2C2471AF18C620006E949 /* TestAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2C2461AF18C620006E949 /* TestAnnotationView.swift */; };
 		0CB56FB21B35E5DF000EDEBB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB56FB11B35E5DF000EDEBB /* MapKit.framework */; };
+		0CCC995123A05F550067C696 /* TestAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC995023A05F550067C696 /* TestAnnotation.swift */; };
 		DE7601D40D03319210409921 /* Pods_HDAugmentedRealityDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D2E3953577132FCDAEF4AD /* Pods_HDAugmentedRealityDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C56798E1EA0160800E4613C /* FrontRowTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontRowTransform.swift; sourceTree = "<group>"; };
+		0C00C3992374DD0C00A07384 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C3C4476234D0D0B00E06776 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		0C5E594A1E6769F8003CCA93 /* StackTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackTestViewController.swift; sourceTree = "<group>"; };
-		0CAD4EAD1AE6FC14000F2A2A /* HDAugmentedRealityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDAugmentedRealityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CAD4EAD1AE6FC14000F2A2A /* HDAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAD4EB11AE6FC14000F2A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CAD4EB21AE6FC14000F2A2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CAD4EB41AE6FC14000F2A2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 		0CAD4F051AE70ACA000F2A2A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		0CB2C2461AF18C620006E949 /* TestAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAnnotationView.swift; sourceTree = "<group>"; };
 		0CB56FB11B35E5DF000EDEBB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0CCC995023A05F550067C696 /* TestAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnnotation.swift; sourceTree = "<group>"; };
 		C2DA810FB00D15665EE37980 /* Pods-HDAugmentedRealityDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDAugmentedRealityDemo.debug.xcconfig"; path = "Target Support Files/Pods-HDAugmentedRealityDemo/Pods-HDAugmentedRealityDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DBB5B9979118DA6E43A9E50E /* Pods-HDAugmentedRealityDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDAugmentedRealityDemo.release.xcconfig"; path = "Target Support Files/Pods-HDAugmentedRealityDemo/Pods-HDAugmentedRealityDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E0D2E3953577132FCDAEF4AD /* Pods_HDAugmentedRealityDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDAugmentedRealityDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C13E68B22DD21CD002286A9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD4EB41AE6FC14000F2A2A /* ViewController.swift */,
+				0CCC995023A05F550067C696 /* TestAnnotation.swift */,
+				0CB2C2461AF18C620006E949 /* TestAnnotationView.swift */,
+				0C5E594A1E6769F8003CCA93 /* StackTestViewController.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
 		0C1E92881B336AA7005254F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,9 +79,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0C5FCA64234E774B0050256E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD4EB21AE6FC14000F2A2A /* AppDelegate.swift */,
+				0CAD4EB61AE6FC14000F2A2A /* Main.storyboard */,
+				0CAD4EB91AE6FC14000F2A2A /* Images.xcassets */,
+				0CAD4EB01AE6FC14000F2A2A /* Supporting Files */,
+				0C00C3992374DD0C00A07384 /* LaunchScreen.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		0CAD4EA41AE6FC14000F2A2A = {
 			isa = PBXGroup;
 			children = (
+				0C3C4476234D0D0B00E06776 /* Readme.txt */,
 				0CAD4EAF1AE6FC14000F2A2A /* HDAugmentedRealityDemo */,
 				0CAD4EAE1AE6FC14000F2A2A /* Products */,
 				0C1E92881B336AA7005254F2 /* Frameworks */,
@@ -77,7 +105,7 @@
 		0CAD4EAE1AE6FC14000F2A2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CAD4EAD1AE6FC14000F2A2A /* HDAugmentedRealityDemo.app */,
+				0CAD4EAD1AE6FC14000F2A2A /* HDAR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,14 +113,8 @@
 		0CAD4EAF1AE6FC14000F2A2A /* HDAugmentedRealityDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0CAD4EB41AE6FC14000F2A2A /* ViewController.swift */,
-				0CB2C2461AF18C620006E949 /* TestAnnotationView.swift */,
-				0CAD4EB21AE6FC14000F2A2A /* AppDelegate.swift */,
-				0CAD4EB61AE6FC14000F2A2A /* Main.storyboard */,
-				0CAD4EB91AE6FC14000F2A2A /* Images.xcassets */,
-				0CAD4EB01AE6FC14000F2A2A /* Supporting Files */,
-				0C5E594A1E6769F8003CCA93 /* StackTestViewController.swift */,
-				0C56798E1EA0160800E4613C /* FrontRowTransform.swift */,
+				0C5FCA64234E774B0050256E /* Main */,
+				0C13E68B22DD21CD002286A9 /* App */,
 			);
 			path = HDAugmentedRealityDemo;
 			sourceTree = "<group>";
@@ -133,7 +155,7 @@
 			);
 			name = HDAugmentedRealityDemo;
 			productName = HDAugmentedRealityDemo;
-			productReference = 0CAD4EAD1AE6FC14000F2A2A /* HDAugmentedRealityDemo.app */;
+			productReference = 0CAD4EAD1AE6FC14000F2A2A /* HDAR.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,6 +171,7 @@
 				TargetAttributes = {
 					0CAD4EAC1AE6FC14000F2A2A = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = J2U8N77X8C;
 						LastSwiftMigration = 1000;
 					};
 				};
@@ -158,6 +181,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -177,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CAD4EB81AE6FC14000F2A2A /* Main.storyboard in Resources */,
+				0C3C4477234D0D0B00E06776 /* Readme.txt in Resources */,
+				0C00C39A2374DD0C00A07384 /* LaunchScreen.storyboard in Resources */,
 				0CAD4EBA1AE6FC14000F2A2A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,15 +215,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HDAugmentedRealityDemo/Pods-HDAugmentedRealityDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HDAugmentedReality/HDAugmentedReality.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HDAugmentedReality.framework",
 			);
@@ -235,11 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCC995123A05F550067C696 /* TestAnnotation.swift in Sources */,
 				0CB2C2471AF18C620006E949 /* TestAnnotationView.swift in Sources */,
 				0CAD4EB51AE6FC14000F2A2A /* ViewController.swift in Sources */,
 				0C5E594B1E6769F8003CCA93 /* StackTestViewController.swift in Sources */,
 				0CAD4EB31AE6FC14000F2A2A /* AppDelegate.swift in Sources */,
-				0C56798F1EA0160800E4613C /* FrontRowTransform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,16 +389,18 @@
 			baseConfigurationReference = C2DA810FB00D15665EE37980 /* Pods-HDAugmentedRealityDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Danijel Huis (Z5VTM983UF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Danijel Huis (Z5VTM983UF)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J2U8N77X8C;
 				INFOPLIST_FILE = HDAugmentedRealityDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Huis.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Huis.HDAugmentedRealityDemo;
+				PRODUCT_NAME = HDAR;
 				PROVISIONING_PROFILE = "3721ebd7-c018-4626-95b5-5fd2ab7f49d0";
-				PROVISIONING_PROFILE_SPECIFIER = NTH_Development;
+				PROVISIONING_PROFILE_SPECIFIER = TSD_Development_wildcard_112019;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -386,16 +410,18 @@
 			baseConfigurationReference = DBB5B9979118DA6E43A9E50E /* Pods-HDAugmentedRealityDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Danijel Huis (Z5VTM983UF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Danijel Huis (Z5VTM983UF)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 8694PW88QR;
 				INFOPLIST_FILE = HDAugmentedRealityDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Huis.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Huis.HDAugmentedRealityDemo;
+				PRODUCT_NAME = HDAR;
 				PROVISIONING_PROFILE = "e28b5d0e-47ea-46a9-9805-9d88b59efa0f";
-				PROVISIONING_PROFILE_SPECIFIER = NTH_Development;
+				PROVISIONING_PROFILE_SPECIFIER = NTHEnterprise;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
